@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Projects!</title>
+				<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		  <script type="text/javascript" src="JS/script.js"></script>
+	</head>
+	<body onload="Slide1(); disableonload(); dis()" style="background-color: #FFF5EE">
+		<div class="prbox"> 
+			<h2 class="prtxt">Project 1</h2>
+			<h3 class="prtxt2">SHOW/HIDE IMAGE</h3>
+	        <div class="divborder">
+			<img id="imageSpace" style="display:none" class="primg2" src="https://farm6.staticflickr.com/5338/9005046502_b6b9df297e_b.jpg">
+			<div class="content" id="text">IMAGE</div>
+			</div>
+	    <div class="butndiv">
+			<button onclick="showMyImage()">SHOW</button>
+			<button onclick="hideMyImage()">HIDE</button>
+		</div>
+
+		</div>
+		<br>
+		<div class="prbox">
+			<h2 class="prtxt">Project 2</h2>
+			<div class="t1">
+					<div>Number 1</div>
+					<input class="inp" id="n1" value=""/>
+					<div>Number 2</div>
+					<input class="inp" id="n2" value=""/>
+					<button class="butn" onclick="homework6()">Calculate</button>
+					
+					<div id="wholemesg">
+					<span id="mesg"></span>
+					<span id="answer"></span>
+					</div>
+					
+			</div>
+
+		</div>
+		<br>
+		<div class="prbox">
+			<h2 class="prtxt">Project 3</h2>
+			<div class="t2">
+					<div>Number 1</div>
+					<div>
+					<input class="inp1" id="n1"/>
+					</div>
+					<div>Number 2</div>
+					<div>
+					<input class="inp1" id="n2"/>
+				</div>
+			 <form action="">
+					  <input id="rad1" type="radio" name="calculation" value="add">add (+)
+					  <input id="rad2" type="radio" name="calculation" value="subtract">subtract (-)
+					  <input id="rad3" type="radio" name="calculation" value="multiply">multiply (*)
+					  <input id="rad4" type="radio" name="calculation" value="divide">divide (/)
+			 </form>
+				<div>
+				   <input class="inp1" id="answer1" />
+				</div>
+				<div>
+					<button class="butn1" onclick="myCalculation()">Calculate</button>
+				</div>
+			  </div>
+		</div>
+		<br>
+		<div class="prbox">
+			<h2 class="prtxt">Project 4</h2>
+			<div class="div2">
+					<button onclick="buttons('text1')" class="accordion">Accordion 1</button>
+					<div class="panel" style="display:none" id="text1" >
+					   <p>Text 1</p>
+					</div>
+					<button onclick="buttons('text2')" class="accordion">Accordion 2</button>
+					<div class="panel" id="text2" style="display:none">
+					   <p>Text 2</p>
+					</div>
+					<button onclick="buttons('text3')" class="accordion">Accordion 3</button>
+					<div class="panel" id="text3" style="display:none">
+					   <p>Text 3</p>
+					</div>
+			</div>
+		</div>
+		
+		<br>
+		<div class="prbox1">
+		   <h2 class="prtxt">Project 5</h2>
+		   <h1 class="h5">GRADE CALCULATOR</h1>
+	           <div class="allign">
+						<div>HOMEWORK(20 max)</div>
+						<input class="inp3" id="inp1" value="" />
+						<div>MIDTERM(20 max)</div>
+						<input class="inp3" id="inp2" value="" />
+						<div>FINAL EXAM(30 max)</div>
+						<input class="inp3" id="inp3" value="" />
+						<div>PROJECT(20 max)</div>
+						<input class="inp3" id="inp4" value="" />
+						<div>INSTRUCTOR EVALUATION(10 max)</div>
+						<input class="inp3" id="inp5" value="" />
+						<div>TOTAL</div>
+						<input class="inp3" id="answer2" />
+						
+						<button class="butn3" onclick="addition1()">CALCULATE</button>
+					
+	           </div>
+		</div>
+
+		<br>
+		<div class="prbox1">
+				<h2 class="prtxt">Project 6</h2>
+
+		<h1 style="text-align:center">Raykhon Juraeva's Slide Show</h1>
+ 
+		<div class="slideshow-cont">
+		   <div class="gallerycont">
+			   <div class="imageHolder"><img id="image1" src="Images/slide1.jpg"></div>
+			   <div class="imageHolder"><img id="image2" src="Images/slide2.jpg"></div>
+			   <div class="imageHolder"><img id="image3" src="Images/slide3.jpg"></div>
+			   <div class="imageHolder"><img id="image4" src="Images/slide4.jpg"></div>
+			   <div class="imageHolder"><img id="image5" src="Images/slide5.jpg"></div>
+		   </div>
+		   
+		   <div id="dotsContainer" class="dotsframe">
+			 <div id="first" class="dots" onclick="Slide1()"></div>
+			 <div id="second" class="dots" onclick="Slide2()"></div>
+			 <div id="third" class="dots" onclick="Slide3()"></div>
+			 <div id="fourth" class="dots" onclick="Slide4()"></div>
+			 <div id="fifth" class="dots" onclick="Slide5()"></div>
+			 
+		   </div>
+		   
+		</div>
+		</div>
+
+<hr>
+		<div class="footer3">
+				<div class="p123">
+				<p><b>Contacts:</b></p>
+				<p>Day phone: 347-000-0000</p>
+				<p>Evening phone: 347-000-0000</p>
+				<p>Email: raykhon.juraeva@gmail.com</p>
+				</div>
+				<div class="p1234">
+				<p><b>Address:</b></p>
+				<p>1545 Ovington ave</p>
+				<p>Brokklyn, NY 11219</p>
+				<span>
+						<a href="https://www.facebook.com/raykhon.kamolova?ref=bookmarks" class="fa fa-facebook"></a>
+						
+						<a href="https://www.linkedin.com/in/shoira-k-571a77b9/"class="fa fa-linkedin"></a>
+						<a href="https://www.instagram.com/raykhon/" class="fa fa-instagram"></a>
+				</span>
+				</div>
+				
+			</div>
+
+	</body>
+
+</html>
